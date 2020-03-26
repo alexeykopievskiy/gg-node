@@ -1,0 +1,250 @@
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    height: 100%;
+    text-align: center;
+
+    display: -webkit-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -moz-box;
+    display: flex;
+}
+
+.container img {
+    width: 100%;
+}
+
+.container .content div {
+    padding-top: 30px;
+}
+
+.container .content div .desc {
+    padding: 10px;
+}
+
+.container .left {
+    padding: 50px;
+    text-align: left;
+}
+
+.small_font_td {
+
+    font-size: 12px;
+}
+
+.total_row td {
+    font-weight: bold;
+    text-align: right;
+}
+
+.main_table_countries_div {
+    font-size: 15.5px;
+    text-align: left;
+    width: 100%;
+
+    overflow-x: unset !important;
+    overflow-y: unset !important;
+}
+
+.main_table_countries th {
+
+    font-size: 14px;
+    font-weight: bold;
+    color: #666666;
+    position: sticky !important;
+    top: 0;
+    background: #fff;
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+}
+
+.mt_a {
+    text-decoration: underline;
+}
+
+.mt_pills a {
+
+    padding: 0 !important;
+    padding-top: 4px !important;
+    padding-bottom: 4px !important;
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+    text-decoration: none;
+}
+
+.mt_buttons {
+
+    margin-bottom: 16px !important;
+
+}
+
+
+@media (min-width: 900px) {
+    .mt_buttons {
+
+        position: absolute;
+        top: 0px;
+    }
+
+}
+
+.spreads img {
+    margin-top: 30px;
+}
+
+.spreads img {
+    margin-bottom: 30px;
+}
+
+#countries div {
+    padding-top: 10px !important;
+}
+
+#nav-tabContent {
+    margin-top: -30px;
+}
+
+#nav-tabContent tbody tr {
+    line-height: 10px;
+}
+
+#nav-tabContent a:not([href]) {
+    margin: 2px;
+    cursor: pointer;
+}
+
+#nav-tabContent .dataTables_length {
+    float: left;
+    margin-right: 30px;
+}
+
+/*
+#main_table_countries_today_length,
+#main_table_countries_today_paginate,
+#main_table_countries_yesterday_length,
+#main_table_countries_yesterday_paginate {
+    display: none
+}
+*/
+
+#main_table_countries_today_filter,
+#main_table_countries_yesterday_filter {
+    float: right;
+}
+
+input[type="search"] {
+    margin-left: 10px;
+}
+
+.header-panel {
+    display: none;
+}
+
+#quizz {
+    margin-top: 100px;
+    position: absolute;
+    padding: 80px;
+    background-color: rgba(255, 255, 255, 1);
+    display: none;
+    z-index: 101;
+    width: 650px;
+}
+
+#quizz button {
+    width: 150px
+}
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    display: block;
+    height: 100vh;
+    z-index: 100;
+    display: none;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-hidden {
+    overflow: hidden;
+}
+
+#quizz .quizz-content .col-lg-12.btn-recovered {
+    padding-top: 30px;
+}
+
+.form-modal__perfect {
+    width: 100%;
+}
+
+#quizz .quizz-content,
+#quizz .quizz-content .col-lg-12 {
+    padding: 0;
+}
+
+#quizz .form-modal__perfect button,
+#quizz .form-modal__not-final button,
+#quizz .form-modal__not button,  
+#quizz .form-modal__recovered button {
+    width: 100%;
+}
+
+.form-modal__perfect .form-group,
+.form-modal__not-final .form-group,
+.form-modal__not .form-row,
+.form-modal__recovered .form-group {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.form-modal__not .form-row {
+    margin: 20px 0;
+}
+
+.form-modal__not div.form-check {
+    padding: 0;
+}
+
+.quizz-content {
+
+}
+
+.quizz-content__main {
+    display: block;
+}
+
+.quizz-content__perfect {
+    display: none;
+}
+
+.quizz-content__recovered {
+    display: none;
+}
+
+.quizz-content__not {
+    display: none;
+}
+
+.quizz-content__not-final {
+    display: none;
+}
+
+.quizz-content__not .col-lg-12 div.block,
+.quizz-content__not .col-lg-12 div.form-row {
+    padding: 0 0 0 20px;
+}
+
+.container .content div.block,
+.container .content div.addthis_inline_share_toolbox,
+.container .content div#atstbx,
+.container .content div#atstbx2,
+.container .content div#atstbx3{
+    padding: 0;
+}

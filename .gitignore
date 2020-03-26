@@ -1,0 +1,13 @@
+.git
+.env
+
+*.pyc
+
+node_modules
+__pycache__
+
+static/js/compiled/*
+
+Procfile
+requirements.txt
+Dockerfile
