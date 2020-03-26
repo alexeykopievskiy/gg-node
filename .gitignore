@@ -13,3 +13,4 @@ requirements.txt
 Dockerfile
 node_modules
 app.py
+.buildpacks
