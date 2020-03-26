@@ -11,3 +11,4 @@ static/js/compiled/*
 Procfile
 requirements.txt
 Dockerfile
+node_modules
